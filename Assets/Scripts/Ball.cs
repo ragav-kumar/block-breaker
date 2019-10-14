@@ -5,8 +5,8 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
 	//config params
-	[SerializeField] Paddle paddle;
-	[SerializeField] Vector2 launchVector;
+	[SerializeField] PlayerPaddle paddle;
+	[SerializeField] Vector2 launchVector = new Vector2(2, 10);
 	[SerializeField] AudioClip[] collisionAudio;
 	[SerializeField] float randomBounceFactor = .2f;
 
@@ -50,7 +50,8 @@ public class Ball : MonoBehaviour
 		if (Input.GetMouseButtonDown(0))
 		{
 			ballLocked = false;
-			myRigidBody2D.velocity = launchVector;
+            
+            myRigidBody2D.velocity = new Vector2(launchVector.x * Mathf.Sign(paddle.GetLastMoveDirection()), launchVector.y);
 		}
 	}
 	private void OnCollisionEnter2D(Collision2D collision)

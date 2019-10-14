@@ -11,7 +11,7 @@ public class Block : MonoBehaviour
     [SerializeField] Sprite[] hitSprites;
 
     // State
-    [SerializeField] int currentHealth; // TODO Serialized for debug
+    private int currentHealth;
 
     // Cached reference
     private Level level;

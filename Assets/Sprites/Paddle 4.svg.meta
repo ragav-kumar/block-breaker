@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 88918b7ff72077d48a25b87723a93005
+guid: 6d3ff3c1e2a6437459c0c1381ab6f9cb
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 16
+  svgPixelsPerUnit: 32
   gradientResolution: 64
   alignment: 0
   customPivot: {x: 0, y: 0}
@@ -37,17 +37,17 @@ ScriptedImporter:
   spriteData:
     TessellationDetail: 0
     SpriteRect:
-      name: Paddle EdgeSprite
+      name: 
       originalName: 
-      pivot: {x: 0.50800025, y: 0.502709}
+      pivot: {x: 0, y: 0}
       alignment: 0
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 5
-        height: 7
-      spriteID: 7600e96799ebe6643bb6b0fcd6ba8bba
+        width: 0
+        height: 0
+      spriteID: 09b62504302c6b148995d60b4855686a
       internalID: 0
     PhysicsOutlines: []
