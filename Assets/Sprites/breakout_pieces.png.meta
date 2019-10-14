@@ -1,0 +1,1351 @@
+fileFormatVersion: 2
+guid: 2d458e408ab05e9478ed044363968eeb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8779851856160428249
+    second: Brick Blue
+  - first:
+      213: 8123522099234965906
+    second: breakout_pieces_1
+  - first:
+      213: -6542258964230631408
+    second: breakout_pieces_2
+  - first:
+      213: 5576512789731744304
+    second: breakout_pieces_3
+  - first:
+      213: 4170084735909681763
+    second: breakout_pieces_4
+  - first:
+      213: 4868013315375914852
+    second: breakout_pieces_5
+  - first:
+      213: -4573936591471085667
+    second: breakout_pieces_6
+  - first:
+      213: 8081418902575098564
+    second: breakout_pieces_7
+  - first:
+      213: 7020662727346353784
+    second: Brick Green
+  - first:
+      213: 249912004772958684
+    second: breakout_pieces_23
+  - first:
+      213: 6674338550913640749
+    second: breakout_pieces_24
+  - first:
+      213: 642457118171379605
+    second: breakout_pieces_25
+  - first:
+      213: 2918386395906471764
+    second: breakout_pieces_26
+  - first:
+      213: -8848347549088059166
+    second: breakout_pieces_27
+  - first:
+      213: 6400974580797388141
+    second: breakout_pieces_28
+  - first:
+      213: -9115033706432773171
+    second: breakout_pieces_29
+  - first:
+      213: -2587180338526120264
+    second: Brick Red
+  - first:
+      213: 7655327757239118234
+    second: breakout_pieces_42
+  - first:
+      213: 376636324558536024
+    second: breakout_pieces_43
+  - first:
+      213: 9113928485572467879
+    second: breakout_pieces_44
+  - first:
+      213: 446392251170874411
+    second: breakout_pieces_45
+  - first:
+      213: 6448066107545699010
+    second: breakout_pieces_46
+  - first:
+      213: 7023623739357316904
+    second: breakout_pieces_47
+  - first:
+      213: -2077006103584699708
+    second: breakout_pieces_48
+  - first:
+      213: 6067380552153079847
+    second: Brick Purple
+  - first:
+      213: -5464719614083046429
+    second: Brick Big Blue
+  - first:
+      213: 4680018114114253317
+    second: Brick Big Purple
+  - first:
+      213: 7208655268170125681
+    second: Brick Big Bronze
+  - first:
+      213: 7233299275759204534
+    second: Brick Gold
+  - first:
+      213: 9019107716779943761
+    second: Brick Big Green
+  - first:
+      213: 4864093442223271890
+    second: Brick Big Gold
+  - first:
+      213: -4724413427733597965
+    second: Brick Black
+  - first:
+      213: 4641736135279495242
+    second: Brick Big Red
+  - first:
+      213: 4878257125658924612
+    second: Brick Big Black
+  - first:
+      213: 7443810588167698092
+    second: Brick Bronze
+  - first:
+      213: 2483691816366420849
+    second: Ball Blue
+  - first:
+      213: -1313928953589481879
+    second: Ball Green
+  - first:
+      213: -1204602516990207253
+    second: Ball Red
+  - first:
+      213: -7921272388753815671
+    second: Ball Purple
+  - first:
+      213: 2735496880090483122
+    second: Ball Gold
+  - first:
+      213: 4846143481184680090
+    second: Ball Black
+  - first:
+      213: 5593712658998242771
+    second: Ball Bronze
+  - first:
+      213: 5390353741414590158
+    second: Heart Red
+  - first:
+      213: 4619348541099067146
+    second: Heart Blue
+  - first:
+      213: -8224521165583992928
+    second: Paddle Blue
+  - first:
+      213: 8493003253466311822
+    second: Paddle Red
+  - first:
+      213: 5962057845093596250
+    second: Paddle Gold
+  - first:
+      213: 1268379166828636518
+    second: Paddle Bronze
+  - first:
+      213: -747795542304470074
+    second: Paddle Green
+  - first:
+      213: -744568793052947377
+    second: Paddle Purple
+  - first:
+      213: -3661427709500902707
+    second: Paddle Black
+  - first:
+      213: 2707577370330349663
+    second: breakout_pieces_0
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Brick Blue
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 175
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8c60185de585c448e0282b803ac989
+      internalID: 8779851856160428249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece9a0e6f5fd92d4f9af962d415e18b1
+      internalID: 8123522099234965906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8b48576404a6a4a89320d6d45b82df
+      internalID: -6542258964230631408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77198e45f9c63924783f8f5b811afe4e
+      internalID: 5576512789731744304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff646c350a18ab41a3bdd4e87b1ff00
+      internalID: 4170084735909681763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b24e4ec96a22c4dbbac1a7008fcd57
+      internalID: 4868013315375914852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9944b432071312d408c28ba3aed7ef80
+      internalID: -4573936591471085667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd16e9d47f6d4e440884ef010d06c0ab
+      internalID: 8081418902575098564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Green
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6949a416494fd45acf97c62300ff73
+      internalID: 7020662727346353784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84675d1da26cc0a48a92ed631fc18e1d
+      internalID: 249912004772958684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_24
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188ff5a527f4b764fb7069e35ee4ea64
+      internalID: 6674338550913640749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e381fb84c5ebc23459f6fcb5feaf4f37
+      internalID: 642457118171379605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_26
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd49379fcf12e74fa390c00d0e266b3
+      internalID: 2918386395906471764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60174d496f682174bab22c5ee512eac3
+      internalID: -8848347549088059166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_28
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fb12a99e921d34399a0c8a87cea164
+      internalID: 6400974580797388141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145679eb67b9efd4cb01da5984aafff7
+      internalID: -9115033706432773171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Red
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3884b85d2212f474abbf3dee3069c27c
+      internalID: -2587180338526120264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e832fb25de70a2e4dadb71df56c66f0a
+      internalID: 7655327757239118234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_43
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c7a0cff46da5142808a7315a6634a6
+      internalID: 376636324558536024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_44
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd5392d6ab38ba419d0707e542cc6f0
+      internalID: 9113928485572467879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_45
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3798c36cfb8814bb399f833e0e74b0
+      internalID: 446392251170874411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fbed46ece879f43bd5a9ded5a03e57
+      internalID: 6448066107545699010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_47
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4c424d529031f47b62d7ca91390410
+      internalID: 7023623739357316904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_48
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 136
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02299066af59754faa286f4ec85394b
+      internalID: -2077006103584699708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Purple
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 116
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29697dd5e2371764c8f9dbbb3c3ac755
+      internalID: 6067380552153079847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Big Blue
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1335ef52afcd048a6bed3583a85f40
+      internalID: -5464719614083046429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Big Purple
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 112
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea5e3f2f559fa54990579292addd615
+      internalID: 4680018114114253317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Big Bronze
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 112
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7af4c8e876ce5428bb065383c1aa0a
+      internalID: 7208655268170125681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Gold
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8caeeb12e3eb704b8f50f96e35296df
+      internalID: 7233299275759204534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Big Green
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 92
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f2363cf1283034b829891521cc4cf1
+      internalID: 9019107716779943761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Big Gold
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 92
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40316ff773a450443a8db872a64a04c7
+      internalID: 4864093442223271890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Black
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 76
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101d217a79123ff40968be813baf61ee
+      internalID: -4724413427733597965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Big Red
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 72
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5c4a4bd4069dd4b888fc1b47cc3a84
+      internalID: 4641736135279495242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Big Black
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 72
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e205c63a61ac7ee478e6b3ceb8dc6d02
+      internalID: 4878257125658924612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brick Bronze
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 56
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05471adfa39964340b5076a906d0a80a
+      internalID: 7443810588167698092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball Blue
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103ff7c08cd45dc40a9bab9b8a2bd623
+      internalID: 2483691816366420849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball Green
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4560aceee1fb6f44a86da66fd72b438
+      internalID: -1313928953589481879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball Red
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4aba7ba6b7c0d45b615a585dc77483
+      internalID: -1204602516990207253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball Purple
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9322b8b23247ae640a7baf61cff941f6
+      internalID: -7921272388753815671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball Gold
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6774c22097c27439c2e384d5be7942
+      internalID: 2735496880090483122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball Black
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b683c66fd86014abe75a2d0b9018e2
+      internalID: 4846143481184680090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball Bronze
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724d313cde547b343ad31b083cd9020f
+      internalID: 5593712658998242771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart Red
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 56
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2ccabb61caf544f8d6b18ec5f318fb
+      internalID: 5390353741414590158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart Blue
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 56
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c5e7b15771bdf499b533820a0de398
+      internalID: 4619348541099067146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Blue
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 29
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0d93e82b9ff9c4eb1bdf34e1833ec6
+      internalID: -8224521165583992928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Red
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 29
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b7246921f664842873b14e270c34b3
+      internalID: 8493003253466311822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Gold
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 29
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce27cf1e3732704fb14faef53084905
+      internalID: 5962057845093596250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Bronze
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 29
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a942a5c6454b60e46b14ed7592b4117b
+      internalID: 1268379166828636518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Green
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebc4cb1305fdca46b4603eaa03e7383
+      internalID: -747795542304470074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Purple
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 5
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e359f364a9df04f42a40fda7bfd899c8
+      internalID: -744568793052947377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Black
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 5
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34476923b29fe94d9f518486b0b44d3
+      internalID: -3661427709500902707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_pieces_0
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 41
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03ba805c92af9341a62ab862ac0b258
+      internalID: 2707577370330349663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
