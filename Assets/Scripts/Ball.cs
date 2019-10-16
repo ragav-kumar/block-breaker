@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-	//config params
-	[SerializeField] PlayerPaddle paddle;
+#pragma warning disable 0649
+    //config params
+    [SerializeField] PlayerPaddle paddle;
 	[SerializeField] Vector2 launchVector = new Vector2(2, 10);
 	[SerializeField] AudioClip[] collisionAudio;
 	[SerializeField] float randomBounceFactor = .2f;
-
-	//state
-	private Vector2 paddleToBallVector;
+#pragma warning restore 0649
+    //state
+    private Vector2 paddleToBallVector;
 	private bool ballLocked;
 
 	//cached component references
 	AudioSource myAudioSource;
 	Rigidbody2D myRigidBody2D;
+    private Level level;
 	// Start is called before the first frame update
 	void Start()
 	{

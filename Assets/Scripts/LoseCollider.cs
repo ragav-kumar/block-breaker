@@ -6,18 +6,18 @@ using UnityEngine;
 public class LoseCollider : MonoBehaviour
 {
     //cached references
-    private GameState state;
+    private Level level;
 
     private void Start()
     {
-        state = FindObjectOfType<GameState>();
+        level = FindObjectOfType<Level>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         var collidingObject = collision.gameObject.GetComponent<Ball>();
         if (collidingObject != null) // collidingObject has a Ball component
         {
-            state.LoseBallInPlay();
+            level.RemoveBall();
         }
     }
 }

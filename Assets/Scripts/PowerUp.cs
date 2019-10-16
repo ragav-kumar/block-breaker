@@ -9,14 +9,14 @@ public class PowerUp : MonoBehaviour
         SizeUp, SizeDown, BallSpeedUp, BallSpeedDown, MultiBall,
         BlastBall, Laser, ExtraBall, ExtraPaddle
     }
-
+#pragma warning disable 0649
     // config params
     [Tooltip("Fall speed. Valuable powerups should fall faster. Default: 2.0")]
     [SerializeField] float dropSpeed = 2f;
     [Tooltip("The effect of this power up")]
     [SerializeField] PowerUpType type;
     [SerializeField] AudioClip acquireSound;
-
+#pragma warning restore 0649
     // cached refs
     private Rigidbody2D myRigidBody2D;
 

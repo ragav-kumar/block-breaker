@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerPaddle : MonoBehaviour
 {
+#pragma warning disable 0649
     // config params
     [Header("Paddle Size")]
     [SerializeField] GameObject[] paddles = new GameObject[4];
@@ -16,7 +17,7 @@ public class PlayerPaddle : MonoBehaviour
     [SerializeField] float velocityContribution = 0;
     [Tooltip("Multiplier on how much position on paddle contributes to ball angle change")]
     [SerializeField] float positionContribution = 0;
-
+#pragma warning restore 0649
     private float xMin, xMax;
     private float lastX;
     private float lastDirection = 1.0f;
@@ -24,11 +25,13 @@ public class PlayerPaddle : MonoBehaviour
     // cached references
     private SpriteRenderer sprite;
     private GameState state;
+    private Level level;
 
     // Start is called before the first frame update
     void Start()
     {
         state = FindObjectOfType<GameState>();
+        level = FindObjectOfType<Level>();
         // Start by disabling all paddles
         foreach (GameObject paddle in paddles)
         {
@@ -123,7 +126,7 @@ public class PlayerPaddle : MonoBehaviour
             case PowerUp.PowerUpType.BallSpeedDown:
                 break;
             case PowerUp.PowerUpType.MultiBall:
-                state.AddBallsInPlay(3);
+                level.AddBall(3);
                 break;
             case PowerUp.PowerUpType.BlastBall:
                 break;

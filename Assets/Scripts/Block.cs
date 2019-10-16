@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
+#pragma warning disable 0649
     // Config params
     [SerializeField] AudioClip destructionSound;
     [SerializeField] GameObject destroyVFX;
     private int maxHealth;
     [SerializeField] Sprite[] hitSprites;
-
+#pragma warning restore 0649
     // State
     private int currentHealth;
 
@@ -33,7 +34,7 @@ public class Block : MonoBehaviour
         level = FindObjectOfType<Level>();
         if (tag == "Breakable")
         {
-            level.addBlock();
+            level.AddBlock();
         }
     }
     private void DestroyBreakableBlocks()
@@ -45,7 +46,7 @@ public class Block : MonoBehaviour
             {
                 TriggerDestroyEffect();
                 Destroy(gameObject, 0.1f);
-                level.removeBlock();
+                level.RemoveBlock();
             }
             else
             {

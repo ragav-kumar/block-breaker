@@ -7,18 +7,22 @@ using UnityEngine.SceneManagement;
 
 public class GameState : MonoBehaviour
 {
+#pragma warning disable 0649
     // Config params
+    [SerializeField] bool autoplayEnabled = false;
+    [Header("General")]
     [Range(0.01f, 10f)] [SerializeField] float gameSpeed = 1f;
-    [SerializeField] int blockPointValue = 83;
-    [SerializeField] int maxExtraBalls = 9;
+    [SerializeField] int baseBlockPointValue = 83;
+    [Header("UI")]
     [SerializeField] TextMeshProUGUI extraBallsText;
     [SerializeField] TextMeshProUGUI scoreText;
-    [SerializeField] bool autoplayEnabled = false;
-
+    [Header("Ball")]
+    [SerializeField] int startingExtraBalls = 3;
+    [SerializeField] int maxExtraBalls = 9;
+#pragma warning restore 0649
     // State variables
     private int currentScore;
-    private int ballsInPlay = 1;
-    private int extraBalls = 3;
+    private int extraBalls;
 
     private void Awake()
     {
@@ -40,6 +44,7 @@ public class GameState : MonoBehaviour
     void Start()
     {
         AddScore(0f);
+        extraBalls = startingExtraBalls;
     }
 
     // Update is called once per frame
@@ -50,7 +55,7 @@ public class GameState : MonoBehaviour
 
     public void AddScore(float multiplier = 1f)
     {
-        currentScore += (int) multiplier * blockPointValue;
+        currentScore += (int) multiplier * baseBlockPointValue;
         scoreText.text = currentScore.ToString("000000");
     }
     public void DestroySelf()
@@ -63,26 +68,16 @@ public class GameState : MonoBehaviour
         extraBalls = Math.Min(maxExtraBalls, extraBalls);
         extraBallsText.text = extraBalls.ToString();
     }
-    public void AddBallsInPlay(int num)
+    public void Die()
     {
-        // TODO: Ball spawn
-        ballsInPlay += Math.Abs(num);
-    }
-    public void LoseBallInPlay()
-    {
-        ballsInPlay--;
-        if (ballsInPlay <= 0)
+        extraBalls--;
+        if (extraBalls < 0)
         {
-            extraBalls--;
-            if (extraBalls < 0)
-            {
-                SceneManager.LoadScene("Game Over");
-            }
-            else
-            {
-                extraBallsText.text = extraBalls.ToString();
-            }
-            
+            SceneManager.LoadScene("Game Over");
+        }
+        else
+        {
+            extraBallsText.text = extraBalls.ToString();
         }
     }
 }
