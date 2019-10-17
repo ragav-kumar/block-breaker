@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7403348695964534188}
   - component: {fileID: 1751608892912307958}
   m_Layer: 12
-  m_Name: Ball Speed Down
+  m_Name: Score 250
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e2e077035c32f7a44adad05963cd0a47, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0a6f2dcd451100d4280c8537a052a7aa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropSpeed: 2
-  type: 4
+  type: 12
   acquireSound: {fileID: 0}
 --- !u!61 &1751608892912307958
 BoxCollider2D:

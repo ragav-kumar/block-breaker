@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
-    public enum PowerUpType
-    {
-        SizeUp, SizeDown, BallSpeedUp, BallSpeedDown, MultiBall,
-        BlastBall, Laser, ExtraBall, ExtraPaddle
-    }
 #pragma warning disable 0649
     // config params
     [Tooltip("Fall speed. Valuable powerups should fall faster. Default: 2.0")]

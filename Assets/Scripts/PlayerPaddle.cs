@@ -73,8 +73,8 @@ public class PlayerPaddle : MonoBehaviour
     private void ChangeSize(int delta)
     {
         int newSize = paddleSize + delta;
-        newSize = Math.Min(newSize, 0);
-        newSize = Math.Max(paddles.Length - 1, newSize);
+        newSize = Math.Max(newSize, 0);
+        newSize = Math.Min(paddles.Length - 1, newSize);
         SetPaddleSize(newSize);
     }
     private void SetUpMoveBoundaries()
@@ -110,46 +110,67 @@ public class PlayerPaddle : MonoBehaviour
         }
     }
 
-    private void ApplyPowerUp(PowerUp.PowerUpType type)
+    private void ApplyPowerUp(PowerUpType type)
     {
         Debug.Log("called");
         switch (type)
         {
-            case PowerUp.PowerUpType.SizeUp:
+            case PowerUpType.SizeUp:
                 ChangeSize(1);
                 break;
-            case PowerUp.PowerUpType.SizeDown:
+            case PowerUpType.SizeDown:
                 ChangeSize(-1);
                 break;
-            case PowerUp.PowerUpType.BallSpeedUp:
+            case PowerUpType.BallSpeedUp:
+                //TODO
                 break;
-            case PowerUp.PowerUpType.BallSpeedDown:
+            case PowerUpType.BallSpeedDown:
+                //TODO
                 break;
-            case PowerUp.PowerUpType.MultiBall:
+            case PowerUpType.MultiBall:
                 level.AddBall(3);
                 break;
-            case PowerUp.PowerUpType.BlastBall:
+            case PowerUpType.BlastBall:
+                //TODO
                 break;
-            case PowerUp.PowerUpType.Laser:
+            case PowerUpType.Laser:
+                //TODO
                 break;
-            case PowerUp.PowerUpType.ExtraBall:
+            case PowerUpType.ExtraBall:
                 state.AddExtraBalls(1);
                 break;
-            case PowerUp.PowerUpType.ExtraPaddle:
+            case PowerUpType.ExtraPaddle:
+                //TODO
                 break;
+            case PowerUpType.Score100:
+                state.AddScore(100);
+                break;
+            case PowerUpType.Score250:
+                state.AddScore(250);
+                break;
+            case PowerUpType.Inversion:
+                // TODO
+                break;
+            case PowerUpType.None:
             default:
                 break;
         }
     }
     /*private float getXPos() {
-   //if (state.isAutoplayEnabled())
-   //{
-   //    return ball.transform.position.x;
-   //}
-   //else
-   //{
-   //    return Input.mousePosition.x / Screen.width * screenWidthInUnits;
-   //}
-   return Input.mousePosition.x / Screen.width * screenWidthInUnits;
-}*/
+       if (state.isAutoplayEnabled())
+       {
+           return ball.transform.position.x;
+       }
+       else
+       {
+           return Input.mousePosition.x / Screen.width * screenWidthInUnits;
+       }
+    }*/
+    public void SpawnAttachedBall(Ball baseBall)
+    {
+        var y = transform.position.y + sprite.bounds.extents.y;
+        y += baseBall.GetComponent<SpriteRenderer>().bounds.extents.y;
+        var x = transform.position.x;
+        var ball = baseBall.Create(this, new Vector2(x,y));
+    }
 }

@@ -286,7 +286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3995192191249371685}
   - component: {fileID: 3995192191249371690}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Blue Rocket Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}

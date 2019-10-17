@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 5749618857818568378}
   - component: {fileID: 3764726207846935468}
   m_Layer: 8
-  m_Name: Paddle
+  m_Name: PlayerPaddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,11 +80,10 @@ MonoBehaviour:
   - {fileID: 61090641379238048}
   - {fileID: 7201691630153333321}
   - {fileID: 7905142090232729807}
-  paddleSize: 0
+  paddleSize: 1
   moveSpeed: 10
   velocityContribution: 0
   positionContribution: 0
-  isFixed: 0
 --- !u!50 &5749618857818568378
 Rigidbody2D:
   serializedVersion: 4

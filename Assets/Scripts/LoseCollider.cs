@@ -19,5 +19,9 @@ public class LoseCollider : MonoBehaviour
         {
             level.RemoveBall();
         }
+        else
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }

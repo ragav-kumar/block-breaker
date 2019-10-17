@@ -9,7 +9,7 @@ public class Ball : MonoBehaviour
     [SerializeField] PlayerPaddle paddle;
 	[SerializeField] Vector2 launchVector = new Vector2(2, 10);
 	[SerializeField] AudioClip[] collisionAudio;
-	[SerializeField] float randomBounceFactor = .2f;
+	[SerializeField] float randomBounceFactor = 0f;
 #pragma warning restore 0649
     //state
     private Vector2 paddleToBallVector;
@@ -28,8 +28,14 @@ public class Ball : MonoBehaviour
 		myRigidBody2D = GetComponent<Rigidbody2D>();
 	}
 
-	// Update is called once per frame
-	void Update()
+    public void Freeze()
+    {
+        myRigidBody2D.velocity = new Vector2(0, 0);
+        myRigidBody2D.isKinematic = true;
+    }
+
+    // Update is called once per frame
+    void Update()
 	{
 		if (ballLocked)
 		{
@@ -37,10 +43,25 @@ public class Ball : MonoBehaviour
 			LaunchOnClick();
 		}
 	}
+    public Ball Create(PlayerPaddle paddle, Vector2 position)
+    {
+        var newBall = Instantiate<Ball>(this, position, transform.rotation);
+        newBall.AttachPaddle(paddle);
+        newBall.Lock();
+        return newBall;
+    }
+    public void AttachPaddle(PlayerPaddle paddle)
+    {
+        this.paddle = paddle;
+    }
 	public bool isLaunched()
 	{
 		return !ballLocked;
 	}
+    public void Lock()
+    {
+        ballLocked = true;
+    }
 
 	private void LockToPaddle()
 	{

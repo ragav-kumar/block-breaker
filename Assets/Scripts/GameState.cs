@@ -19,10 +19,11 @@ public class GameState : MonoBehaviour
     [Header("Ball")]
     [SerializeField] int startingExtraBalls = 3;
     [SerializeField] int maxExtraBalls = 9;
+    [SerializeField] Ball defaultBall;
 #pragma warning restore 0649
     // State variables
     private int currentScore;
-    private int extraBalls;
+    private int extraBalls = 0;
 
     private void Awake()
     {
@@ -36,6 +37,7 @@ public class GameState : MonoBehaviour
             DontDestroyOnLoad(gameObject); 
         }
     }
+
     public bool isAutoplayEnabled() {
         return autoplayEnabled;
     }
@@ -43,8 +45,8 @@ public class GameState : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AddScore(0f);
-        extraBalls = startingExtraBalls;
+        AddScore(0);
+        AddExtraBalls(startingExtraBalls);
     }
 
     // Update is called once per frame
@@ -53,11 +55,17 @@ public class GameState : MonoBehaviour
         Time.timeScale = gameSpeed;
     }
 
-    public void AddScore(float multiplier = 1f)
+    public void AddScore()
     {
-        currentScore += (int) multiplier * baseBlockPointValue;
+        currentScore += baseBlockPointValue;
         scoreText.text = currentScore.ToString("000000");
     }
+    public void AddScore(int points)
+    {
+        currentScore += points;
+        scoreText.text = currentScore.ToString("000000");
+    }
+
     public void DestroySelf()
     {
         Destroy(gameObject);
@@ -78,6 +86,8 @@ public class GameState : MonoBehaviour
         else
         {
             extraBallsText.text = extraBalls.ToString();
+            var paddle = FindObjectOfType<PlayerPaddle>();
+            paddle.SpawnAttachedBall(defaultBall);
         }
     }
 }

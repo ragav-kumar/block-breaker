@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7403348695964534188}
   - component: {fileID: 1751608892912307958}
   m_Layer: 12
-  m_Name: Size +
+  m_Name: Size Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropSpeed: 2
-  type: 0
+  type: 1
   acquireSound: {fileID: 0}
 --- !u!61 &1751608892912307958
 BoxCollider2D:

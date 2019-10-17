@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropSpeed: 2
-  type: 2
+  type: 3
   acquireSound: {fileID: 0}
 --- !u!61 &1751608892912307958
 BoxCollider2D:

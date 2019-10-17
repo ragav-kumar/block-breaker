@@ -8,10 +8,11 @@ public class Block : MonoBehaviour
     // Config params
     [SerializeField] AudioClip destructionSound;
     [SerializeField] GameObject destroyVFX;
-    private int maxHealth;
     [SerializeField] Sprite[] hitSprites;
+    [SerializeField] GameObject droppedPowerUp;
 #pragma warning restore 0649
     // State
+    private int maxHealth;
     private int currentHealth;
 
     // Cached reference
@@ -62,7 +63,13 @@ public class Block : MonoBehaviour
     }
     private void TriggerDestroyEffect()
     {
+        // VFX
         GameObject fx = Instantiate(destroyVFX,transform.position, transform.rotation);
         Destroy(fx, 1f);
+        // Powerup, if present
+        if (droppedPowerUp != null)
+        {
+            Instantiate(droppedPowerUp, transform.position, transform.rotation);
+        }
     }
 }

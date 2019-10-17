@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 676204545016475016}
   - component: {fileID: 676204545016474998}
   - component: {fileID: 676204545016474997}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Block-3
   m_TagString: Breakable
   m_Icon: {fileID: 0}
@@ -125,3 +125,4 @@ MonoBehaviour:
   hitSprites:
   - {fileID: 21300000, guid: 983a39a41ee209f4aaef822c0b073e78, type: 3}
   - {fileID: 21300000, guid: b242dd8f3af6c9d4688599b2966aab52, type: 3}
+  droppedPowerUp: {fileID: 0}

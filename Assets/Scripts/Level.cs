@@ -30,9 +30,17 @@ public class Level : MonoBehaviour
         state.AddScore();
         if (blocks <= 0)
         {
-            sceneLoader.LoadNextScene();
+            // Freeze ball
+            var balls = FindObjectsOfType<Ball>();
+            foreach (var ball in balls)
+            {
+                ball.Freeze();
+            }
+            // Time to load next scene
+            StartCoroutine(sceneLoader.LoadNextScene());
         }
     }
+    
     public void AddBall(int number = 1)
     {
         balls += number;
@@ -42,7 +50,8 @@ public class Level : MonoBehaviour
         balls--;
         if (balls <= 0)
         {
-
+            state.Die();
+            balls = 1;
         }
     }
 }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7403348695964534188}
   - component: {fileID: 1751608892912307958}
   m_Layer: 12
-  m_Name: Ball Speed Down
+  m_Name: Extra Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e2e077035c32f7a44adad05963cd0a47, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b3919728730b0f46acbe6f11eccb83e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropSpeed: 2
-  type: 4
+  type: 8
   acquireSound: {fileID: 0}
 --- !u!61 &1751608892912307958
 BoxCollider2D:
@@ -136,7 +136,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.9472656, y: 0.25}
+    oldSize: {x: 7.88, y: 2.08}
     newSize: {x: 4.85, y: 1.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

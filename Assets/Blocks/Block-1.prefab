@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 676204545016475016}
   - component: {fileID: 676204545016474998}
   - component: {fileID: 676204545016474997}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Block-1
   m_TagString: Breakable
   m_Icon: {fileID: 0}
@@ -123,3 +123,4 @@ MonoBehaviour:
   destructionSound: {fileID: 8300000, guid: 879f9c73a4a05c44f84a1ebb745dba36, type: 3}
   destroyVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
   hitSprites: []
+  droppedPowerUp: {fileID: 0}
